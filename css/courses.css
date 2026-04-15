@@ -73,59 +73,20 @@ footer .list a:hover{
     color: gainsboro;
 }
 @media (max-width: 768px) {
-    table {
-        display: block; 
-        overflow-x: auto; 
-        white-space: nowrap;
-        height: 50vh;
-        width: 90%;
-        font-size: 14px;
-        margin: 10px 0;
-        align-items: center;
-        padding-left:100px;
-        
-    }
-    th, td {
-        padding: 10px; 
-        font-size: 14px;
-        position: absolute;
-       
-
-
-    }
-      tr {
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding: 10px;
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 8px;
+  img{
+    height: auto;
+    min-width: 600px;
+    object-fit: cover;
+    background-position: center;
+    padding-bottom: 100px;
+  } 
+  table{
+    height: auto;
+    width:90%;
+    overflow: auto;
+  } 
+  footer{
+     padding:50px 25px;
   }
-
-  td {
-    border: none;
-    position: relative;
-    padding-left: 50%; 
-    text-align: center;
-    margin-bottom: 5px;
-  }
-}
-    img {
-        object-fit: cover; 
-    }
-    footer {
-        padding: 20px 0;
-        height: auto; 
-    }
-    footer .content2 ul {
-       padding: 0;
-       display: flex;
-       flex-direction: column;
-       gap: 10px;
-    }
-    footer .content2 ul li {
-       margin-right: 0;
-       text-align: center;
-    }
-
 
 }
